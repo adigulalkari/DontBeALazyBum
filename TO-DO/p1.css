@@ -1,0 +1,145 @@
+*{
+    background-color: #181818;
+}
+body{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #444;
+    letter-spacing: 1px;
+}
+
+
+#wrapper{
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+}
+
+#page-banner{
+    background:  #181818 ;
+    padding: 10px 0;
+    color:  #13a3bdb1;
+}
+
+#page-banner h1, #page-banner p{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 1200;
+}
+
+#page-banner input{
+    width: 90%;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #adabab;
+}
+
+.progress-container {
+    width: 50%;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    width: 0%;
+    transition: width 0.2s;
+  }
+  
+
+#book-list, #add-book{
+    margin: 30px;
+}
+
+#book-list ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.name{
+    color: #adabab;
+}
+
+#book-list li{
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin: 20px 10px;
+    border-radius: 2rem;
+}
+
+.checkbox1{
+    float: right;
+    padding: px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    width: 15px;
+    height: 15px;
+}
+
+.delete{
+    float: right;
+    padding-left: 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+#add-book{
+    width: 400px;
+    margin: 0 auto ;
+}
+
+#add-book input{
+    margin: 20px 0;
+    color: #adabab;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: 4rem;
+    box-sizing: border-box;
+    width: 350px;
+    clear: both;
+}
+
+#add-book button{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 0;
+    border: none;
+    border-left: none;
+    cursor: pointer;
+    width: 10px;
+    margin: 20px 0;
+    margin-left: 1px;
+    color: white;
+}
+
+#add-book:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#add-book label{
+  line-height: 52px;
+}
+
+
+  
