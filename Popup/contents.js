@@ -1,5 +1,5 @@
 
-const delay_popup = 10*1000;
+const delay_popup = 4*1000;
 let timer
 const alertBtn  = document.getElementById('sweetalert')
 

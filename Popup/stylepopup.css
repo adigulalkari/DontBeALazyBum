@@ -1,13 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 body {
-    background-color: #181818;
+    background-color: #f0ead6;
     margin: 0;
     padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Outfit', sans-serif;
     min-width: 400px;
 }
 button {
-    background: #13a3bdb1;
-    color: white;
+    background: #ffb100;
+    color: #160c47;
     margin: 5%;
     margin-left: 27%;
     padding: 10px 20px;
