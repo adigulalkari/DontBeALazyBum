@@ -1,3 +1,6 @@
+*{
+  background-color: #181818;
+}
 body {
     margin: 0;
     padding: 10px;
@@ -6,8 +9,10 @@ body {
 }
 
 button {
-    background: #5f9341;
+    background: #13a3bdb1;
     color: white;
+    margin: 5%;
+    margin-left: 27%;
     padding: 10px 20px;
     border: none;
     font-weight: bold;
