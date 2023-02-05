@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+*{
+    font-family: 'Outfit', sans-serif;
+    /* background-color: #181818; */
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: #f0ead6;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+
+#wrapper{
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+}
+
+#page-banner{
+    background:  #160c47 ;
+    padding: 10px 0;
+    color: #fff;
+}
+
+#page-banner h1{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    padding-right: 80%;
+    font-size: 45px;
+    font-weight: 1400;
+}
+#table-elements{
+    margin-top: 10%;
+    margin-left: 18%;
+    padding-right: 10rem;
+    font-size: 25px;
+}
+
+.content{
+    /* border: 2px solid black; */
+    background-color: #ffb100;
+    color:#160c47 ;
+    padding: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    border-radius: 10px;
+}
+td{
+    padding: 20px;
+    padding-right: 20rem;
+}
+
+
+#emojis{
+    align-items: center;
+}
+.name{
+    color: #adabab;
+}
+
+#book-list li{
+    float: right;
+    padding-left: 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.delete{
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin: 20px 10px;
+    border-radius: 2rem;
+}
