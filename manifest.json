@@ -1,0 +1,21 @@
+{
+  "name":"LazyBum",
+  "description":"Find a way to organise ur stuff",
+  "version": "1.0",
+  "manifest_version":3,
+  "action":{
+      "default_popup":"./Landing/p3.html"
+  },
+  "web_accessible_resources": [
+      {
+        "resources": ["./Landing/p3.css", "./Music/music.html", "./Music/script.js", "./Music/style.css", "./Music/music/Changes.mp3",
+      "./Music/music/Industry-Baby.mp3", "./Music/music/Lofi.mp3", "./Music/images/Changes.jpeg", "./Music/images/Industry-Baby.jpeg",
+    "./Music/images/Lofi.jpeg", "./Organizer/organizer.html", "./Organizer/script.js", "./Organizer/styles.css", "./TO-DO/todo.html",
+    "./TO-DO/p1.js", "./TO-DO/p1.css"],
+        "matches": ["<all_urls>"]
+      }
+    ],
+    "host_permissions": ["http://*/", "https://*/*"]
+}
+
+
