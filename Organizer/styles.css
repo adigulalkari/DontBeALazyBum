@@ -1,17 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 *{
-  background-color: #1a1a1a;
+  font-family: 'Outfit', sans-serif;
 }
-
 body {
+  background-color: #f0ead6;
     margin: 0;
     padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
     min-width: 400px;
 }
 
 button {
-    background: #13a3bdb1;
-    color: white;
+    background: #ffb100;
+    font-size: x-large;
+    color: #160c47 ;
     margin: 5%;
     margin-left: 27%;
     padding: 10px 20px;
@@ -20,30 +21,35 @@ button {
     font-weight: bold;
 }
 
-table{
-  border: none;
-}
-
 td a{
-    color: #5f9341;
+    color: #003166;
 }
 
-table {
-    font-family: Arial, sans-serif;
-    border-collapse: collapse;
+  table {
     width: 100%;
-  }
-  
-  td, th {
-    color: white;
-    text-align: left;
-    padding: 8px;
+    margin: 20px 0;
+    border-collapse: collapse;
+    font-size: 14px;
   }
   
   th {
-    background-color: #1a1a1a;;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #fff;
+  }
+  
+  td {
+    padding: 10px;
+    word-wrap: break-word;
+    border-bottom: 1px solid #ccc;
+    width: 400px;
   }
   
   tr:nth-child(even) {
-    background-color: #1a1a1aa5;;
+    background-color: #fff;
+  }
+  tr:nth-child(odd) {
+    background-color: #ffcf6e;
   }
