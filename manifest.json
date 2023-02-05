@@ -14,7 +14,7 @@
                       "./Music/images/Changes.jpeg", "./Music/images/Industry-Baby.jpeg","./Music/images/Lofi.jpeg", 
                       "./Organizer/organizer.html", "./Organizer/script.js", "./Organizer/styles.css", 
                       "./TO-DO/todo.html","./TO-DO/p1.js", "./TO-DO/p1.css", 
-                      "./Popup/contents.js","./Popup/popup.html"],
+                      "./Popup/contents.js","./Popup/popup.html", "./Popup/stylepopup.css"],
         "matches": ["<all_urls>"]
       }
     ],
